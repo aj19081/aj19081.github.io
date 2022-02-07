@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo</title>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!--includes-->
+    <script type="text/javascript" th:src="@{/js/libraries/p5.min.js}"></script>
+    <script type="text/javascript" th:src="@{/js/includes/ambient.js}"></script>
+    <script type="text/javascript" th:src="@{/js/includes/camera.js}"></script>
+    <script type="text/javascript" th:src="@{/js/includes/materials.js}"></script>
+    <script type="text/javascript" th:src="@{/js/includes/path.js}"></script>
+    <script type="text/javascript" th:src="@{/js/includes/scene.js}"></script>
+    <script type="text/javascript" th:src="@{/js/includes/sceneObject.js}"></script>
+</head>
+
+<body>
+<head>
+    <title>Page Title</title>
+    <style>
+        body{
+            background-image: url('image1.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<h1 style="background-color: darkgrey; font-size: 300%; text-align:center;">Welcome to Merchant Venturers Building</h1>
+<p style="text-align:center; background-color: coral;">Which room are you looking for? &#128270;</p>
+
+<form action="index.html" style="text-align: center;">Room Number:
+
+    <input type="text" id="txtName" placeholder="enter the room number" onkeydown="if(event.keyCode===13) btn.click()">
+    <input type="button" id="btn" value="Search"/>
+
+    <p style="text-align:center; background-color: coral;">Which do you prefer, stairs or lifts?</p>
+    <form action="index.html">
+        <input list="ways" name="way">
+        <datalist id="ways">
+            <option value="Stairs"></option>
+            <option value="Lifts"></option>
+        </datalist>
+        <input type="submit" value="SORT">
+    </form>
+
+</form></br>
+
+<table width="80%" align="center">
+    <tr>
+        <td>Path is</td>
+    </tr>
+    <tbody id="content">
+    </tbody>
+</table>
+
+<!--p5.js sketch-->
+<script type="text/javascript" th:src="@{/js/sketch.js}"></script>
+</body>
+</html>

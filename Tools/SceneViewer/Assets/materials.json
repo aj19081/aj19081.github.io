@@ -1,0 +1,46 @@
+{
+    "materials": [
+      {
+        "name": "test",
+        "colour": [
+          0.9294117647058824,
+          0.44313725490196076,
+          0.6196078431372549
+        ],
+        "metallic": 0,
+        "roughness": 0.5,
+        "hasTexture": true,
+        "texturePath": "Assets/Marble-Roughness.jpg",
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Assets/Marble-Roughness.jpg"
+      },
+      {
+        "name": "test2",
+        "colour": [
+          0.3294117647058824,
+          0.64313725490196076,
+          0.8196078431372549
+        ],
+        "metallic": 1,
+        "roughness": 0.9,
+        "hasTexture": false,
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Assets/Marble-Roughness.jpg"
+      }, 
+      {
+        "name": "test3",
+        "colour": [
+          0.7294117647058824,
+          0.34313725490196076,
+          0.3196078431372549
+        ],
+        "metallic": 0,
+        "roughness": 0.9,
+        "hasTexture": false,
+        "texturePath": "Assets/Marble-Roughness.jpg",
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Assets/Marble-Roughness.jpg"
+      }
+    ]
+  }
+  

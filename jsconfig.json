@@ -1,0 +1,8 @@
+{
+  "include": [
+    "../../js/*.js",
+    "*.js",
+    "demo/src/main/resources/static/js/libraries/*.js",
+    "demo/src/main/resources/static/js/sketch.js"
+  ]
+}

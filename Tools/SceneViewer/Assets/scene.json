@@ -1,0 +1,25 @@
+{
+    "objects": [
+        {
+            "model": "Assets/monkey.obj",
+            "position": [0,0,0],
+            "rotation": [0,0,0],
+            "scale": [75,75,75],
+            "materialName": "test"
+        },
+        {
+            "model": "Assets/monkey.obj",
+            "position": [150,0,0],
+            "rotation": [0.95,0,0.3],
+            "scale": [50,50,50],
+            "materialName": "test2"
+        },
+        {
+            "model": "Assets/monkey.obj",
+            "position": [-150,0,0],
+            "rotation": [0.45,0,-0.95],
+            "scale": [80,80,80],
+            "materialName": "test3"
+        }
+    ]
+}

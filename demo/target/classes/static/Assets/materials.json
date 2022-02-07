@@ -1,0 +1,85 @@
+{
+    "materials": [
+      {
+        "name": "concrete",
+        "colour": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "metallic": 0,
+        "roughness": 1.0,
+        "hasTexture": true,
+        "texturePath": "Concrete034_1K-JPG/Concrete034_1K_Color.jpg",
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Concrete034_1K-JPG/Concrete034_1K_Roughness.jpg"
+      },
+      {
+        "name": "floor-2",
+        "colour": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "metallic": 0,
+        "roughness": 1.0,
+        "hasTexture": true,
+        "texturePath": "floor2-map.jpg",
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Concrete034_1K-JPG/Concrete034_1K_Roughness.jpg"
+      },
+      {
+        "name": "text",
+        "colour": [
+          0.8,
+          0.2,
+          0.2
+        ],
+        "metallic": 0,
+        "roughness": 0.9,
+        "hasTexture": false,
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Marble-Roughness.jpg"
+      },
+      {
+        "name": "chairs",
+        "colour": [
+          0.8,
+          0.2,
+          0.2
+        ],
+        "metallic": 0,
+        "roughness": 0.4,
+        "hasTexture": false,
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Marble-Roughness.jpg"
+      },
+      {
+        "name": "black-metal",
+        "colour": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "metallic": 1,
+        "roughness": 0.2,
+        "hasTexture": false,
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Marble-Roughness.jpg"
+      },
+      {
+        "name": "tabletop",
+        "colour": [
+          0.6,
+          0.5,
+          0.4
+        ],
+        "metallic": 0,
+        "roughness": 0.2,
+        "hasTexture": false,
+        "hasRoughnessTexture": true,
+        "roughnessPath": "Marble-Roughness.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<body>
+<head>
+<title>Page Title</title>
+    <style>
+        body{
+            background-image: url('image1.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<!--<body style="background-color:powderblue;">-->
+
+<h1 style="background-color: darkgrey; font-size: 300%; text-align:center;">Welcome to Merchant Venturers Building</h1>
+<p style="text-align:center; background-color: coral;">Which room are you looking for? &#128270;</p>
+
+<form action="index.html" style="text-align: center;">Room Number:<input type="text" size="4" oninvalid="setCustomValidity('Not Valid Room Number')" onkeydown="if(event.keyCode===13) search.click()"/><br><br>
+<input type="button" onclick="alert('Hello World!')" id="search" value="SEARCH">
+
+
+<p style="text-align:center; background-color: coral;">Which do you prefer, stairs or lifts?</p>
+<form action="index.html">
+    <input list="ways" name="way">
+    <datalist id="ways">
+        <option value="Stairs"></option>
+        <option value="Lifts"></option>
+    </datalist>
+    <input type="submit" value="SORT">
+</form>
+
+<!--<button>SEARCH</button>-->
+
+
+</form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+{
+    "objects": [
+        {
+            "model": "floor-2/floor-2.obj",
+            "position": [0,0,0],
+            "rotation": [0,0,0],
+            "scale": [1,1,1],
+            "materialName": "floor-2"
+        },
+        {
+            "model": "floor-2/floor-2-walls.obj",
+            "position": [0,0,0],
+            "rotation": [0,0,0],
+            "scale": [1,1,1],
+            "materialName": "concrete"
+        },
+        {
+            "model": "floor-2/text.obj",
+            "position": [0,0,0],
+            "rotation": [0,0,0],
+            "scale": [1,1,1],
+            "materialName": "text"
+        },
+        {
+            "model": "floor-2/chairs.obj",
+            "position": [0,0,0],
+            "rotation": [0,0,0],
+            "scale": [1,1,1],
+            "materialName": "chairs"
+        },
+        {
+            "model": "floor-2/tabletops.obj",
+            "position": [0,0,0],
+            "rotation": [0,0,0],
+            "scale": [1,1,1],
+            "materialName": "tabletop"
+        },
+        {
+            "model": "floor-2/table-legs.obj",
+            "position": [0,0,0],
+            "rotation": [0,0,0],
+            "scale": [1,1,1],
+            "materialName": "black-metal"
+        }
+    ]
+}
