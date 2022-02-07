@@ -14,12 +14,22 @@ public class room2 {
             "2c14"
     };
     String[] room_third ={
-            "212","222"
+            "3.04",
+            "3.01",
+            "3.33",
+            "3.30",
+            "3.39",
+            "3.42",
+            "3.40",
+            "3c01",
+            "3c02",
+            "3c07"
     };
     String[] get(int floorNumber){
         if(floorNumber==2) {
             return room_second;
+        }else {
+            return room_third;
         }
-        return room_third;
     }
 }

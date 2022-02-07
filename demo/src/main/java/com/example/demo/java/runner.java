@@ -1,5 +1,6 @@
 package com.example.demo.java;
 
+import org.springframework.core.ReactiveAdapterRegistry;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -25,6 +26,34 @@ public class runner {
     }
 
  */
+    List result(int destination,int d_floorNumber, int location, int l_floorNumber){
+        dPathfinding test = new dPathfinding();
+        floor a = new floor();
+        //这里的get()里面写的应该是floorNumber
+        int[][] matrix = a.get(l_floorNumber);
+        int wantedNode = location;
+        int[] result2 = test.trace(matrix, wantedNode);
+        converter converted_result = new converter();
+        List<Integer> l = converted_result.sequence(result2, wantedNode);
+        change cha = new change();
+        List<Character> l2 = cha.numberToChar(l,l_floorNumber);
+        System.out.println("l2 is");
+        System.out.println(l2);
+        //这里做的是destination的那一段
+        int[][] matrix_d = a.get(d_floorNumber);
+        int wantedNode_d = destination;
+        int[] result2_d = test.trace(matrix_d, wantedNode);
+        converter converted_result_d = new converter();
+        List<Integer> l_d = converted_result_d.sequence(result2_d, wantedNode_d);
+        change cha_d = new change();
+        List<Character> l2_d = cha_d.numberToChar(l_d,d_floorNumber);
+        System.out.println("l2_d is");
+        System.out.println(l2_d);
+        //List<Integer> r = test.sequence(result2,6);
+        List fin = cha.processToFinal(l2_d,l2);
+        System.out.println(fin);
+        return fin;
+    }
 
     @RequestMapping("/a1")
     public void main(String[] args,String name , HttpServletResponse response) throws IOException{

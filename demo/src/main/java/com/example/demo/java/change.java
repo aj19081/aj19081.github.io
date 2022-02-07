@@ -3,12 +3,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class change {
+    List processToFinal(List destination,List location){
+        int length_l = location.size();
+        List fin = new ArrayList();
+        int length_d = destination.size();
+        for(int i=0;i<length_l;i++){
+            fin.add(location.get(length_l-i-1));
+        }
+        for(int i=0;i<length_d;i++){
+            fin.add(destination.get(i));
+        }
+        return fin;//没写完
+    }
     List numberToChar(List list,int floorNumber){
         room2 r = new room2();
         String[] str = r.get(floorNumber);//成功用get调出了room class里面的值
         //
         List result = new ArrayList();
+
+        if(list.isEmpty()){
+            //System.out.println("xixixixixixi");
+            return result;
+        }
+
         for (int i=0; i<list.size();i++){
+
             if (list.get(i).equals(1)){
                 result.add(str[1]);
             }else if(list.get(i).equals(2)){
